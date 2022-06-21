@@ -1,0 +1,27 @@
+{
+    "name": "pandagrouppl/subuno-php-api",
+    "description": "Minimal software development kit for connecting with Subuno API in PHP applications.",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Paweł Micnas",
+            "email": "pawelmicnas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PandaGroup\\SubunoApi\\": "src/"
+        }
+    },
+    "require": {
+        "php": " ^7.4||^8.0||^8.1",
+        "ext-curl": "*",
+        "psr/cache": "^1||^2||^3",
+        "guzzlehttp/guzzle": "^6||^7",
+        "symfony/cache": "^4.4",
+        "symfony/validator": "^4.4",
+        "doctrine/annotations": "^1"
+    }
+}
