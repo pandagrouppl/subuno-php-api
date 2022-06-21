@@ -1,5 +1,5 @@
 ### How to use Subuno SDK: ###
-1. Create configuration class that implements
+1. Create configuration class that implements ConfigInterface
 ```php
 class TestConfig implements \PandaGroup\SubunoApi\Contract\ConfigInterface
 ```
