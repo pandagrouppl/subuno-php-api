@@ -13,7 +13,8 @@ $client = new \PandaGroup\SubunoApi\Client($config)
 ```php
 $client->execute(['t_id' => 213]);
 ```
-##### 4. You can also use QueryBuilder and DataObjects (which is recommended) to build request that will be send to Subuno API. There are three types of data objects that represents different types of information proceed by Subuno API: #####
+##### 4. Using QueryBuilder and DataObjects #####
+You can also use QueryBuilder and DataObjects (which is recommended) to build request that will be send to Subuno API. There are three types of data objects that represents different types of information proceed by Subuno API:
 ```php
 \PandaGroup\SubunoApi\DataObject\BillingInformation
 \PandaGroup\SubunoApi\DataObject\OrderInformation
