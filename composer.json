@@ -3,7 +3,7 @@
     "description": "Minimal software development kit for connecting with Subuno API in PHP applications.",
     "minimum-stability": "stable",
     "license": "proprietary",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "authors": [
         {
             "name": "Panda Group",
